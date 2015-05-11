@@ -1,0 +1,61 @@
+body {
+  font-family: 'Raleway';
+  font-size: 1.5em;
+  color: #0066cc;
+}
+
+.nav-wrapper {
+  background-color: #0066cc;
+}
+
+.list {
+  position: absolute;
+  display: inline-table;
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  font-family: 'Inconsolata';
+  font-size: 1.6em;
+  padding: 0 5px;
+  text-shadow: 1px 1px 1px gray;
+  vertical-align: center;
+}
+
+.info {
+  font-size: 1em;
+  padding: 10px;
+  display: inline-block;
+  text-indent: -5px;
+}
+
+.tab {
+  font-size: 1.5em;
+}
+
+.tabber {
+  padding-top: 15px;
+  color: #0066cc;
+}
+
+div.col.s12 {
+  padding: 0;
+}
+
+.tabs .indicator {
+  height: 6px;
+  background-color: #0066cc;
+}
+
+.tabs .tab {
+  line-height: 1;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.tabs .tab a {
+  color: #0066cc;
+}
+/*add way to change font dynamically. that'd be badass.*/
